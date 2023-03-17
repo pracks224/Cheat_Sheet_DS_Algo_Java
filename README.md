@@ -24,4 +24,4 @@ Data Structure And Algorithm Using Java
      * Boring substring
 # **BackTracking**
 # **Tree**
-* [HoffMan Decoding](/Users/mansisharma/Documents/GitHub/Cheat_Sheet_DS_Algo_Java/Tree/HoffManDecoding.java)
+* [HoffMan Decoding](https://github.com/pracks224/Cheat_Sheet_DS_Algo_Java/blob/main/Tree/HoffManDecoding.java)
