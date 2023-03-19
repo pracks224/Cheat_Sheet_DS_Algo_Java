@@ -16,11 +16,15 @@ public class TrieBasics {
         trie.insert("work");
         trie.insert("wood");
 
+      //  HashMap<Integer,Integer>  map = new HashMap<>();
+       // map.entrySet().stream().filter(entry-> entry.getValue()>2).
+
+
         for (Map.Entry<Character, TrieNode> map : trie.root.children.entrySet()) {
             TrieNode addMap = map.getValue();
             System.out.println(map.getKey() + " :: " + map.getValue().children);
         }
-        System.out.println(trie.search("wodr"));
+        System.out.println(trie.search("w.rd"));
     }
 
     void insert(String word) {
@@ -35,18 +39,30 @@ public class TrieBasics {
         current.isEndOfWord = true;
     }
 
-    boolean search(String word) {
-        TrieNode current = root;
-        for (int i = 0; i < word.length(); i++) {
-            char chs = word.charAt(i);
-            if (!current.children.containsKey(chs)) {
-                return false;
-            }
-            current = current.children.get(chs);
-        }
-        return current.isEndOfWord;
+    public boolean search(String word) {
+        return searchHelper(word.toCharArray(), 0, root);
     }
 
+    private boolean searchHelper(char[] word, int index, TrieNode node) {
+        if (index == word.length) {
+            return node.isEndOfWord;
+        }
+        char c = word[index];
+        if (c == '.') {
+            for (TrieNode child : node.children.values()) {
+                if (searchHelper(word, index + 1, child)) {
+                    return true;
+                }
+            }
+            return false;
+        } else {
+            TrieNode child = node.children.get(c);
+            if (child == null) {
+                return false;
+            }
+            return searchHelper(word, index + 1, child);
+        }
+    }
 
 }
 
