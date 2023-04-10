@@ -45,28 +45,28 @@ Most Frequent Asked Problems :
 
 
 
-Interview Questions
-What Is a Difference Between the == Operator and .Equals() Method in Java?                      
-How Does the Jvm Handle Garbage Collection, and What Are the Different Types of Garbage Collectors Available in Java?
-What Is the Difference Between Checked and Unchecked Exceptions in Java, and When Would You Use One Over the Other?
-How Does the Synchronized Keyword Work in Java, and What Are Some Alternatives to Using It?
-What Is a Lambda Expression in Java, and How Does It Differ From an Anonymous Inner Class?
-What Is the Difference Between Transient and Volatile Variables in Java, and When Would You Use One Over the Other?
-What Is the Purpose of the Finalize() Method in Java, and When Is It Called?
-How Does Polymorphism Work in Java, and What Are Some Real-World Examples of How It Can Be Used?
-What Is the Purpose of the Static Keyword in Java, and When Would You Use It?
-What Is the Difference Between an Interface and an Abstract Class in Java, and When Would You Use One Over the Other?
-What Is the Difference Between Public, Protected, Private, and Default Access Modifiers in Java?
-What Is the Difference Between Abstract and Final Classes in Java, and When Would You Use One Over the Other?
-What Is the Difference Between Arraylist and Linkedlist in Java, and When Would You Use One Over the Other?
-What Is the Hashcode() Method in Java, and How Is It Used?
-What Is the Difference Between Transient and Static Variables in Java?
-What Is a Callable Interface in Java, and How Is It Different From a Runnable Interface?
-What Is a Threadlocal Variable in Java, and How Is It Used?
-What Is a Comparator Interface in Java, and How Is It Used?
-What Is the Difference Between classloader.loadclass() and class.forname() Methods in Java?
-What Is the Purpose of the system.gc() Method in Java, and When Is It Called?
-What Is a Proxy Class in Java, and How Is It Used?
+##Interview Questions
+- What Is a Difference Between the == Operator and .Equals() Method in Java?                      
+- How Does the Jvm Handle Garbage Collection, and What Are the Different Types of Garbage Collectors Available in Java?
+- What Is the Difference Between Checked and Unchecked Exceptions in Java, and When Would You Use One Over the Other?
+- How Does the Synchronized Keyword Work in Java, and What Are Some Alternatives to Using It?
+- What Is a Lambda Expression in Java, and How Does It Differ From an Anonymous Inner Class?
+- What Is the Difference Between Transient and Volatile Variables in Java, and When Would You Use One Over the Other?
+- What Is the Purpose of the Finalize() Method in Java, and When Is It Called?
+- How Does Polymorphism Work in Java, and What Are Some Real-World Examples of How It Can Be Used?
+- What Is the Purpose of the Static Keyword in Java, and When Would You Use It?
+- What Is the Difference Between an Interface and an Abstract Class in Java, and When Would You Use One Over the Other?
+- What Is the Difference Between Public, Protected, Private, and Default Access Modifiers in Java?
+- What Is the Difference Between Abstract and Final Classes in Java, and When Would You Use One Over the Other?
+- What Is the Difference Between Arraylist and Linkedlist in Java, and When Would You Use One Over the Other?
+- What Is the Hashcode() Method in Java, and How Is It Used?
+- What Is the Difference Between Transient and Static Variables in Java?
+- What Is a Callable Interface in Java, and How Is It Different From a Runnable Interface?
+- What Is a Threadlocal Variable in Java, and How Is It Used?
+- What Is a Comparator Interface in Java, and How Is It Used?
+- What Is the Difference Between classloader.loadclass() and class.forname() Methods in Java?
+- What Is the Purpose of the system.gc() Method in Java, and When Is It Called?
+- What Is a Proxy Class in Java, and How Is It Used?
 What Is the Difference Between map.get() and map.containskey() Methods in Java?
 What Is a Concurrenthashmap in Java, and How Is It Different From a Regular Hashmap?
 What Is a Thread Pool in Java, and How Is It Used?
